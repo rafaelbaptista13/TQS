@@ -1,0 +1,8 @@
+Which classes/methods offer less coverage?
+
+O método format() da classe CuponEuromillions. 0% Coverage
+Os métodos getDrawResults() e generateRandomDraw() da classe EuromillionsDraw. 0% Coverage
+O método hashCode() da classe Dip com 0% Coverage e o método equals com 76% Coverage.
+
+Are all possible decision branches being covered?
+Não, os métodos com 0% coverage não são de todo covered, mas o método equals() da classe Dip apenas tem um decision branch sendo testado por completo.
