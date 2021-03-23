@@ -14,7 +14,7 @@ import java.net.URISyntaxException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class AddressResolverITTest {
+public class AddressResolverIT {
 
     private ISimpleHttpClient client;
     private AddressResolver resolver;
