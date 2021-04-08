@@ -1,0 +1,199 @@
+{
+  "id": "082e4448-3ae7-4673-aec0-040cc524bc35",
+  "version": "2.0",
+  "name": "Ex4lab3",
+  "url": "https://www.toptal.com",
+  "tests": [{
+    "id": "1776280a-744f-493e-9b86-dd357a4329e2",
+    "name": "Untitled",
+    "commands": [{
+      "id": "a2f04d9a-fcdc-4143-9a28-88dae1a61704",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7113b22e-6cea-4921-8186-0156d6a8321e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1024x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57978882-75f3-4ecd-a47f-301fa11fc32b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Apply as a Freelancer",
+      "targets": [
+        ["linkText=Apply as a Freelancer", "linkText"],
+        ["css=.\\_3Tzn-Ksn:nth-child(1) > .\\_1bcYCljm", "css:finder"],
+        ["xpath=//a[contains(text(),'Apply as a Freelancer')]", "xpath:link"],
+        ["xpath=//nav[@id='nav']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/talent/apply')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Apply as a Freelancer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b240440c-6ccb-4963-9db2-b86ad2d78826",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[4]/div",
+      "targets": [
+        ["css=.has-default_value", "css:finder"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[4]/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52585552-0296-4526-9656-765a59808d6a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[contains(@src,'https://assets.toptal.io/assets/front/static/public/primitives/status/2020/icon_developers_color_68d48a.png')]",
+      "targets": [
+        ["css=.is-active > .custom_select-options_item_image", "css:finder"],
+        ["xpath=//img[contains(@src,'https://assets.toptal.io/assets/front/static/public/primitives/status/2020/icon_developers_color_68d48a.png')]", "xpath:img"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[4]/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7deb34dc-2a1c-41e6-9dd8-06bc44725c03",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='talent_create_applicant_full_name']",
+      "targets": [
+        ["id=talent_create_applicant_full_name", "id"],
+        ["name=talent_create_applicant[full_name]", "name"],
+        ["css=#talent_create_applicant_full_name", "css:finder"],
+        ["xpath=//input[@id='talent_create_applicant_full_name']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44f00fd1-c560-458c-91bd-9f1a7272c07a",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='talent_create_applicant_full_name']",
+      "targets": [
+        ["id=talent_create_applicant_full_name", "id"],
+        ["name=talent_create_applicant[full_name]", "name"],
+        ["css=#talent_create_applicant_full_name", "css:finder"],
+        ["xpath=//input[@id='talent_create_applicant_full_name']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "Pedro Miguel Barroso"
+    }, {
+      "id": "e35fab36-1330-448e-b2da-bd89bc939cf8",
+      "comment": "",
+      "command": "click",
+      "target": "id=talent_create_applicant_email",
+      "targets": [
+        ["id=talent_create_applicant_email", "id"],
+        ["name=talent_create_applicant[email]", "name"],
+        ["css=#talent_create_applicant_email", "css:finder"],
+        ["xpath=//input[@id='talent_create_applicant_email']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aad4515e-7491-4cd7-a174-2be72109f4e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=talent_create_applicant_email",
+      "targets": [
+        ["id=talent_create_applicant_email", "id"],
+        ["name=talent_create_applicant[email]", "name"],
+        ["css=#talent_create_applicant_email", "css:finder"],
+        ["xpath=//input[@id='talent_create_applicant_email']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "someoneemail1234@gmail.com"
+    }, {
+      "id": "ed55a268-835e-42dd-a0c0-03d5c62d878d",
+      "comment": "",
+      "command": "click",
+      "target": "id=talent_create_applicant_password",
+      "targets": [
+        ["id=talent_create_applicant_password", "id"],
+        ["name=talent_create_applicant[password]", "name"],
+        ["css=#talent_create_applicant_password", "css:finder"],
+        ["xpath=//input[@id='talent_create_applicant_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ad75973-05bb-41a1-9706-d1c65e09c358",
+      "comment": "",
+      "command": "type",
+      "target": "id=talent_create_applicant_password",
+      "targets": [
+        ["id=talent_create_applicant_password", "id"],
+        ["name=talent_create_applicant[password]", "name"],
+        ["css=#talent_create_applicant_password", "css:finder"],
+        ["xpath=//input[@id='talent_create_applicant_password']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "password1234!"
+    }, {
+      "id": "11715a4e-ab88-4127-a5d0-f81095a31a62",
+      "comment": "",
+      "command": "click",
+      "target": "id=talent_create_applicant_password_confirmation",
+      "targets": [
+        ["id=talent_create_applicant_password_confirmation", "id"],
+        ["name=talent_create_applicant[password_confirmation]", "name"],
+        ["css=#talent_create_applicant_password_confirmation", "css:finder"],
+        ["xpath=//input[@id='talent_create_applicant_password_confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df49b9f1-9f4b-40ba-b9e8-71d8b54dc1df",
+      "comment": "",
+      "command": "type",
+      "target": "id=talent_create_applicant_password_confirmation",
+      "targets": [
+        ["id=talent_create_applicant_password_confirmation", "id"],
+        ["name=talent_create_applicant[password_confirmation]", "name"],
+        ["css=#talent_create_applicant_password_confirmation", "css:finder"],
+        ["xpath=//input[@id='talent_create_applicant_password_confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/fieldset/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "password1234!"
+    }, {
+      "id": "5c08c83f-9f5f-439a-a3ea-25552689a88b",
+      "comment": "",
+      "command": "click",
+      "target": "id=save_new_talent_create_applicant",
+      "targets": [
+        ["id=save_new_talent_create_applicant", "id"],
+        ["name=commit", "name"],
+        ["css=#save_new_talent_create_applicant", "css:finder"],
+        ["xpath=//input[@id='save_new_talent_create_applicant']", "xpath:attributes"],
+        ["xpath=//form[@id='new_talent_create_applicant']/section/div/div/footer/input", "xpath:idRelative"],
+        ["xpath=//footer/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1ff66c7-ba1c-4d36-bf7e-fa6fe618c100",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1776280a-744f-493e-9b86-dd357a4329e2"]
+  }],
+  "urls": ["https://www.toptal.com/"],
+  "plugins": []
+}
