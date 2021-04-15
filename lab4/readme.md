@@ -1,15 +1,18 @@
 ## a)Identify a couple of examples on the use of AssertJ expressive methods chaining.
 
 AssertJ is a library used for writing assertions in Java tests.
-EmployeeRepositoryTest line 65:
+
+In the project given by the teacher there are two examples:
+
+Class EmployeeRepositoryTest method givenSetOfEmployees_whenFindAll_thenReturnAllEmployees() line 65:
 ``` assertThat(allEmployees).hasSize(3).extracting(Employee::getName).containsOnly(alex.getName(), ron.getName(), bob.getName()); ```
 
-EmployeeService_UnitTest line 103:
+Class EmployeeService_UnitTest method given3Employees_whengetAll_thenReturn3Records() line 103:
 ``` assertThat(allEmployees).hasSize(3).extracting(Employee::getName).contains(alex.getName(), john.getName(), bob.getName()); ```
 
 ## b)Identify an example in which you mock the behavior of the repository (and avoid involving a database).
 
-In the test class "EmployeeService_UnitTest" the attribute employeeRepository we mock the behavior of the repository in the attribute employeeRepository to test only the "EmployeeServiceImpl".
+In the gs-employee-mngr project given by the teacher in the test class "EmployeeService_UnitTest" we mock the behavior of the repository in the attribute employeeRepository to test only the "EmployeeServiceImpl".
 
 ## c)What is the difference between standard @Mock and @MockBean?
 
