@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Search in Google
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.714 s - in Search in Google
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.995 s - in Search in Google
