@@ -58,7 +58,7 @@ This bug appears because we used a java library SimpleDateFormat with static. No
 ## Vulnerabilities
 We also have a critical vulnerability
 
-![Screenshot](Cov_Bug.png)
+![Screenshot](Cov_Vuln.png)
 
 This appears because we are using passwordEncoder in plain-text. Password should be stored in a hash using a secure algorithm preventing brute force attacks, collision attacks as well as adding a salt to lower the risk of rainbow table attacks.
 
