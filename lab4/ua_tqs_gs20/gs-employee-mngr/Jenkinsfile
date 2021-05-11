@@ -5,19 +5,16 @@ pipeline {
       maven 'maven'
   }
   stages {
-      stage('Install') {
-          steps {
-	      dir('lab4/ua_tqs_gs20/gs-employee-mngr') {
-		  sh "$PWD"
-		  sh 'mvn clean install'
-	      }           
-          }
-	  post {
-	      always {
-                   junit '**/target/*-reports/TEST-*.xml'               
-	      }
-	  }
-      }
-  }
+       stage('Install') {
+            steps {
+                sh "mvn clean install"           
+            }           
+        post {
+            always {
+                junit '**/target/*-reports/TEST-*.xml'
+            }           
+        }       
+    }   
+  } 
 }
 
