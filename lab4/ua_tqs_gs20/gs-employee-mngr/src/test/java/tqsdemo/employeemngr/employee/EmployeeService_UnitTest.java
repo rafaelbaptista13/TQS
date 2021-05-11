@@ -103,6 +103,11 @@ public class EmployeeService_UnitTest {
         assertThat(allEmployees).hasSize(3).extracting(Employee::getName).contains(alex.getName(), john.getName(), bob.getName());
     }
 
+    @Test
+    void failingTest() {
+        fail("a failing test");
+    }
+
     private void verifyFindByNameIsCalledOnce(String name) {
         Mockito.verify(employeeRepository, VerificationModeFactory.times(1)).findByName(name);
     }
