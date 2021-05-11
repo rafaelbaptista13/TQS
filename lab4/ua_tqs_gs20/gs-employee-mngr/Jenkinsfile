@@ -7,7 +7,9 @@ pipeline {
   stages {
        stage('Install') {
             steps {
-                sh "mvn clean install"           
+                dir('lab4/ua_tqs_gs20/gs-employee-mngr') {
+                    sh "mvn clean install"   
+                }      
             }           
         post {
             always {
