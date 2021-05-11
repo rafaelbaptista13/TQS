@@ -9,8 +9,8 @@ pipeline {
           steps {
 	      dir('lab4/ua_tqs_gs20/gs-employee-mngr') {
 		  sh "$PWD"
-	      }
-              sh 'mvn clean install'               
+		  sh 'mvn clean install'
+	      }           
           }
 	  post {
 	      always {
