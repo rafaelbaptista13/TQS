@@ -6,6 +6,11 @@ pipeline {
   }
   stages {
       stage('Install') {
+	  steps {
+              dir('your-sub-directory'){
+                  sh "$PWD"
+              }       
+	  }
           steps {
               sh 'mvn clean install'               
           }
